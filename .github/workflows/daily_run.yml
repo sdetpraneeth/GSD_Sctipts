@@ -36,7 +36,7 @@ jobs:
           username: ${{ secrets.MAILUSERS }}
           password: ${{ secrets.MAILPASSWORD }}
           subject: "SUCCESS: Daily Job Execution"
-          to: "praneeth.elapavanam@innovasolutions.com"
+          to: "praneeth.elapavanam@innovasolutions.com, saipraneeth.ev@gmail.com"
           from: "GitHub Actions <${{ secrets.MAILUSERS }}>"
           body: "The scheduled Node.js script executed successfully!"
 
@@ -50,6 +50,6 @@ jobs:
           username: ${{ secrets.MAILUSERS }}
           password: ${{ secrets.MAILPASSWORD }}
           subject: "FAILED: Daily Job Execution"
-          to: "praneeth.elapavanam@innovasolutions.com"
+          to: "praneeth.elapavanam@innovasolutions.com, saipraneeth.ev@gmail.com"
           from: "GitHub Actions <${{ secrets.MAILUSERS }}>"
           body: "The scheduled Node.js script failed. Check your GitHub Actions logs for details."
